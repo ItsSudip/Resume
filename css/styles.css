@@ -1,0 +1,387 @@
+* {
+  margin: 0;
+  padding: 0;
+  /*box-sizing: border-box;*/
+}
+body{
+  background-color: #101010;
+}
+.navbar{
+  position: fixed;
+  font-size: large;
+  font-weight: 1000;
+  width: 100%;
+  margin-top: 20px;
+  height: 100px;
+  transition: all 0.7s;
+}
+
+.follow{
+  background-color:transparent;
+  width: 50px;
+  color:grey;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3vw;
+  padding-right: 5vw;
+  align-items: flex-end;
+  bottom: 250;
+  right: 50;
+  white-space: nowrap;
+  transform-origin: 100% 0;
+  transform: rotate(90deg);
+  position: fixed;
+}
+
+.follow-icon{
+  width: 25px;
+  height: 25px;
+  font-size: 18px;
+  border-radius: 50px;
+  align-items: flex-end;
+  bottom: 150;
+  right: 3.5vw;
+  white-space: nowrap;
+  position: fixed;
+}
+
+.follow-icon:hover{
+  background-color: rgb(42, 172, 201);
+}
+
+
+.mail{
+  width: 50px;
+  color:grey;
+  padding-right: 75px;
+  align-items: flex-end;
+  bottom: 50;
+  left: 50;
+  white-space: nowrap;
+  position: fixed;
+}
+.follow::after{
+  content: '';
+  width: 50px;
+  position: absolute;
+  height: 1px;
+  top: 50%;
+  right: -74;
+  background: #fff;
+}
+
+.navbar-scrolled{
+  transition: all 0.7s;
+  background-color:#101010;
+  margin-top: 0px;
+}
+.navbar div span{
+  float: right;
+  height: 40px;
+  width: auto;
+  margin-left: 50px;
+  overflow: hidden;
+  align-items: bottom;
+  color: grey;
+  overflow: hidden;
+}
+.navbar div span a{
+  color: grey;
+}
+.navbar div span a:hover{
+  text-decoration: none;
+}
+.navbar div span div{
+  position: relative;
+  height: 100px;
+  width: auto;
+  transition: all 0.6s;
+}
+.navbar div span div:hover{
+ margin-top: -52px;
+ color: white;
+}
+
+
+
+.container{
+  background-color: #101010;
+  height: auto;
+  width: 60vw;
+  padding: 0;
+  /*margin-bottom: 10vw;*/
+  color: #ccc;
+}
+.resume{
+  overflow: hidden;
+  border:  rgba(255,255,255,.07) solid 0.001vw;
+}
+.resume .image{
+  height: 12vw;
+  width: 10vw;
+  margin-top: 5vw;
+  margin-left: 5vw;
+  float: left;
+  
+}
+.description{
+  float: left;
+  width: 70%;
+  font-size: 1rem;
+  padding-left: 5vw;
+  padding-top: 5vw;
+}
+.container ul{
+  list-style: none;
+  display: block;
+  float: none;
+}
+.container ul li{
+  width: 48%;
+  display: inline-block;
+}
+h1{
+  font-size: 3.5vw;
+}
+strong{
+  color:rgb(42, 172, 201);
+}
+
+.education{
+  overflow: hidden;
+  border:  rgba(255,255,255,.07) solid 0.001vw; 
+}
+.education h1{
+  padding: 2vw 0 0 2vw;
+}
+.graduation{
+  height: auto;
+  width: 30vw;
+  margin: 0 auto 5vw auto;
+  float: center;
+  font-size: 1.5vw;
+  border: rgba(255,255,255,.07) solid 0.001vw; 
+  padding: 1vw;
+}
+.middle{
+  width: 40vw;
+  height: 8vw;
+  margin: auto;
+  border-left:  rgba(255,255,255,.07) solid 0.001vw; 
+  border-right:  rgba(255,255,255,.07) solid 0.001vw; 
+}
+
+.planguage{
+  position: relative;
+  height: 7vw;
+  width: 33vw;
+  margin: 0 auto 0 auto;
+  padding: 1vw;
+}
+.line{
+  height: 0.3vw;
+  width: 30vw;
+  background-color: grey;
+}
+.overline{
+  height: 0.3vw;
+  margin-top: -.3vw;
+  background-color: rgb(42, 172, 201);
+}
+
+.coding{
+  width: 60vw;
+  overflow: hidden;
+  margin: 0 auto 5vw auto;
+  border: rgba(255,255,255,.07) solid 0.001vw; 
+  padding: 4vw;
+}
+  
+.circle{
+  position: relative;
+  background-color: rgb(42, 172, 201);
+  width: 1.1vw;
+  margin: 1vw 1vw;
+  height: 1.1vw;
+  float: left;
+  border-radius: 15px; 
+}
+.circlegrey{
+  position: relative;
+  background-color: grey;
+  width: 1.1vw;
+  margin: 1vw 1vw;
+  height: 1.1vw;
+  float: left;
+  border-radius: 15px; 
+}
+.language{
+  position: relative;
+  height: 7vw;
+  width: 33vw;
+  margin: 0 auto 2vw auto;
+  padding: 1vw;
+}
+
+.hobbie1{
+  height: auto;
+  width: 25vw;
+  float: left;
+  margin: 0 0vw 0 0;
+  text-align: center;
+  padding: 0 1vw 1vw 1vw;
+  border: rgba(255,255,255,.07) solid 0.001vw; 
+}
+
+.hobbie2{
+  height: auto;
+  width: 25vw;
+  float: right;
+  text-align: center;
+  margin: 0 0 5vw 0;
+  padding: 0 1vw 1vw 1vw;
+  border: rgba(255,255,255,.07) solid 0.001vw; 
+}
+
+.hobbie3{
+  height: auto;
+  width: 25vw;
+  float: left;
+  clear: both;
+  text-align: center;
+  margin: 0 0 0vw 0;
+  padding: 0 1vw 1vw 1vw;
+  border: rgba(255,255,255,.07) solid 0.001vw; 
+}
+
+.hobbie4{
+  height: auto;
+  width: 25vw;
+  float: right;
+  margin: 0 0 0vw 0;
+  text-align: center;
+  padding: 0 1vw 1vw 1vw;
+  border: rgba(255,255,255,.07) solid 0.001vw; 
+}
+
+.coding .image{
+  height: 3vw;
+  width: 3vw;
+  background-repeat: round;
+  margin: 1vw auto;
+  
+}
+
+h3{
+  font-size: 2.5vw;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+/*body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #000;
+  color: #eee;
+}*/
+
+
+.containero {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 360px) and (max-width: 1000px){
+  .containero-sm {
+    width: 300px;
+    margin: auto;
+    /*background-color: green;*/
+  }
+  .description{
+    width: auto;
+    font-size: 4vw;
+    padding-left: 0vw;
+    padding-top: 5vw;
+    text-align: center;
+  }
+  .hide{
+    visibility: hidden;
+  }
+  .navbar div span{
+    margin-left: 0px;
+  }
+  .navbar{
+    position: fixed;
+    font-size: large;
+    font-weight: 1000;
+    width: 100%;
+    margin-top: 0px;
+    height: 100px;
+    transition: all 0.7s;
+  }
+  
+  .container ul{
+    text-align: center;
+    font-size: 10px;
+    padding-left: 5vw;
+    font-size: 3vw;
+  }
+  .resume .image{
+    height: 30vw;
+    width: 25vw;
+    margin: 5vw auto 0 auto;
+    float: none;
+  }
+  .hobbie-sm{
+    height: auto;
+    font-size: 1vw;
+    width: 30vw;;
+    text-align: center;
+    margin: 0 0 5vw 0;
+    border: rgba(255,255,255,.07) solid 0.001vw; 
+    float: none;
+    position: relative;
+    margin: 0 auto 5vw auto;
+    padding: 1vw;
+  }
+  .resume{
+    text-align: center;
+  }
+  .container ul li{
+    display: list-item;
+    width: 50vw;
+  }
+  
+}
+
+
+.containero p {
+  font-size: 6vw;
+  padding: 0.5rem;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  overflow: hidden;
+}
+.containero p span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.containero p span.cursor.typing {
+  animation: none;
+}
+@keyframes blink {
+  0%  { background-color: #ccc; }
+  49% { background-color: #ccc; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #ccc; }
+}
