@@ -113,7 +113,7 @@ body{
 }
 .resume{
   overflow: hidden;
-  border:  rgba(255,255,255,.07) solid 0.001vw;
+  border:  rgba(255,255,255,.07) solid 1px;
 }
 .resume .image{
   height: 12vw;
@@ -148,7 +148,7 @@ strong{
 
 .education{
   overflow: hidden;
-  border:  rgba(255,255,255,.07) solid 0.001vw; 
+  border:  rgba(255,255,255,.07) solid 1px; 
 }
 .education h1{
   padding: 2vw 0 0 2vw;
@@ -159,15 +159,15 @@ strong{
   margin: 0 auto 5vw auto;
   float: center;
   font-size: 1.5vw;
-  border: rgba(255,255,255,.07) solid 0.001vw; 
+  border: rgba(255,255,255,.07) solid 1px; 
   padding: 1vw;
 }
 .middle{
   width: 40vw;
   height: 8vw;
   margin: auto;
-  border-left:  rgba(255,255,255,.07) solid 0.001vw; 
-  border-right:  rgba(255,255,255,.07) solid 0.001vw; 
+  border-left:  rgba(255,255,255,.07) solid 1px; 
+  border-right:  rgba(255,255,255,.07) solid 1px; 
 }
 
 .planguage{
@@ -192,7 +192,7 @@ strong{
   width: 60vw;
   overflow: hidden;
   margin: 0 auto 5vw auto;
-  border: rgba(255,255,255,.07) solid 0.001vw; 
+  border: rgba(255,255,255,.07) solid 1px; 
   padding: 4vw;
 }
   
@@ -229,7 +229,7 @@ strong{
   margin: 0 0vw 0 0;
   text-align: center;
   padding: 0 1vw 1vw 1vw;
-  border: rgba(255,255,255,.07) solid 0.001vw; 
+  border: rgba(255,255,255,.07) solid 1px; 
 }
 
 .hobbie2{
@@ -239,7 +239,7 @@ strong{
   text-align: center;
   margin: 0 0 5vw 0;
   padding: 0 1vw 1vw 1vw;
-  border: rgba(255,255,255,.07) solid 0.001vw; 
+  border: rgba(255,255,255,.07) solid 1px; 
 }
 
 .hobbie3{
@@ -250,7 +250,7 @@ strong{
   text-align: center;
   margin: 0 0 0vw 0;
   padding: 0 1vw 1vw 1vw;
-  border: rgba(255,255,255,.07) solid 0.001vw; 
+  border: rgba(255,255,255,.07) solid 1px; 
 }
 
 .hobbie4{
@@ -260,7 +260,7 @@ strong{
   margin: 0 0 0vw 0;
   text-align: center;
   padding: 0 1vw 1vw 1vw;
-  border: rgba(255,255,255,.07) solid 0.001vw; 
+  border: rgba(255,255,255,.07) solid 1px; 
 }
 
 .coding .image{
@@ -342,7 +342,7 @@ h3{
     width: 30vw;;
     text-align: center;
     margin: 0 0 5vw 0;
-    border: rgba(255,255,255,.07) solid 0.001vw; 
+    border: rgba(255,255,255,.07) solid 1px; 
     float: none;
     position: relative;
     margin: 0 auto 5vw auto;
