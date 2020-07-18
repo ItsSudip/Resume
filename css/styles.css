@@ -177,6 +177,31 @@ strong{
   margin: 0 auto 0 auto;
   padding: 1vw;
 }
+.planguage h3 .cplusplus{
+  margin-left: 15vw;
+}
+.planguage h3 .java{
+  margin-left: 12vw;
+}
+.planguage h3 .htmlcss{
+  margin-left: 8vw;
+}
+.planguage h3 .javascript{
+  margin-left: 5vw;
+}
+
+.l1{
+  width: 24vw;
+}
+.l2{
+  width: 21vw;
+}
+.l3{
+  width: 23vw;
+}
+.l4{
+  width: 18vw;
+}
 .line{
   height: 0.3vw;
   width: 30vw;
@@ -203,7 +228,7 @@ strong{
   margin: 1vw 1vw;
   height: 1.1vw;
   float: left;
-  border-radius: 15px; 
+  border-radius: 1.1vw; 
 }
 .circlegrey{
   position: relative;
@@ -323,7 +348,92 @@ h3{
     height: 100px;
     transition: all 0.7s;
   }
+  .education h1{
+    font-size: 6vw;
+  }
+  .graduation{
+    text-align: center;
+    font-size: 3vw;
+  }
+
+  .planguage h3{
+    font-size: 3vw;
+  }
+  .planguage{
+    position: relative;
+    height: 7vw;
+    width: auto;
+    margin: 0 auto 0 auto;
+    padding: 1vw;
+  }
+
+  .language h3{
+    font-size: 4.5vw;
+  }
+  .line{
+    height: 0.6vw;
+    width: auto;
+    background-color: grey;
+  }
+  .overline{
+    height: 0.6vw;
+    margin-top: -0.6vw;
+    background-color: rgb(42, 172, 201);
+  }
   
+  
+.planguage h3 .cplusplus{
+  margin-left: 30vw;
+}
+.planguage h3 .java{
+  margin-left: 26vw;
+}
+.planguage h3 .htmlcss{
+  margin-left: 18vw;
+}
+.planguage h3 .javascript{
+  margin-left: 15vw;
+}
+
+.l1{
+  width: 40vw;
+}
+.l2{
+  width: 35vw;
+}
+.l3{
+  width: 36vw;
+}
+.l4{
+  width: 32vw;
+}
+
+
+
+  
+.circle{
+  position: relative;
+  background-color: rgb(42, 172, 201);
+  width: 10px;
+  margin: 1vw 1vw;
+  height: 10px;
+  float: left;
+  border-radius: 10 px;
+  -webkit-border-radius :10px;
+}
+.circlegrey{
+  position: relative;
+  background-color: grey;
+  width: 10px;
+  margin: 1vw 1vw;
+  height: 10px;
+  float: left;
+  border-radius: 10px; 
+}
+
+.language{
+  width: auto;
+}
   .container ul{
     text-align: center;
     font-size: 10px;
@@ -338,8 +448,8 @@ h3{
   }
   .hobbie-sm{
     height: auto;
-    font-size: 1vw;
-    width: 30vw;;
+    font-size: 2.5vw;
+    width: 35vw;;
     text-align: center;
     margin: 0 0 5vw 0;
     border: rgba(255,255,255,.07) solid 1px; 
@@ -347,6 +457,9 @@ h3{
     position: relative;
     margin: 0 auto 5vw auto;
     padding: 1vw;
+  }
+  .hobbie-sm h3{
+    font-size: 3vw;
   }
   .resume{
     text-align: center;
