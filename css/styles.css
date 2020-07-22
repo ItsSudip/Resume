@@ -31,7 +31,20 @@ body{
   transform: rotate(90deg);
   position: fixed;
 }
+.pointer{
+  width: 30px;
+  height: 30px;
+  /*margin: -15px 15px -15px -15px;*/
+  margin-top: -15px;
+  margin-left: -15px;
 
+  position: absolute;
+  border-radius: 30px;
+  background-color: rgba(42, 172, 201,.7);
+    -webkit-transition: transform .7s cubic-bezier(.02,1.2,.8,1);
+    transition: transform .7s cubic-bezier(.02,1.2,.8,1);
+    pointer-events: none;
+}
 .follow-icon{
   width: 25px;
   height: 25px;
@@ -212,7 +225,15 @@ strong{
   margin-top: -.3vw;
   background-color: rgb(42, 172, 201);
 }
-
+.desc{
+  position: absolute; 
+  left: 20vw;
+  bottom: 7vw; 
+  font-size: 20px; 
+  font-weight: 100;
+  width: 60vw;
+  text-align: left;
+}
 .coding{
   width: 60vw;
   overflow: hidden;
@@ -313,6 +334,9 @@ h3{
 
 
 .containero {
+  background-image: url(../images/test.jpg);
+  background-repeat: round; 
+  background-attachment: fixed;
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -321,10 +345,13 @@ h3{
 }
 
 @media (min-width: 360px) and (max-width: 1000px){
-  .containero-sm {
-    width: 300px;
-    margin: auto;
-    /*background-color: green;*/
+  .desc{
+    position: absolute; 
+    left: 8vw;
+    bottom: 8vw; 
+    font-size: 15px; 
+    width: 60vw;
+    text-align: left;
   }
   .description{
     width: auto;
@@ -338,6 +365,9 @@ h3{
   }
   .navbar div span{
     margin-left: 0px;
+  }
+  .containero{
+    background-image: url(../images/final.jpg);
   }
   .navbar{
     position: fixed;
