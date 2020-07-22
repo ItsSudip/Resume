@@ -11,9 +11,15 @@ window.addEventListener("scroll",function(){
 
 
 
-
-
-
+const curs=document.querySelector(".pointer");
+window.addEventListener("mousemove",function(){
+  console.log(window.pageYOffset);
+  var x = event.clientX;
+  var y = event.clientY;
+  //console.log(curs);
+  curs.style.left=x;
+  curs.style.top=y+window.pageYOffset;
+})
 
 
 
@@ -104,3 +110,6 @@ document.addEventListener("DOMContentLoaded", function() { // On DOM Load initia
   //if(textArray.length) setTimeout(type, newTextDelay + 250);
   //type();
 });
+
+
+
