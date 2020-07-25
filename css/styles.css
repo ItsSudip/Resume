@@ -8,7 +8,7 @@ body{
 }
 .navbar{
   position: fixed;
-  font-size: large;
+  font-size: 1.5vw;
   font-weight: 1000;
   width: 100%;
   margin-top: 20px;
@@ -60,7 +60,6 @@ body{
 .follow-icon:hover{
   background-color: rgb(42, 172, 201);
 }
-
 
 .mail{
   width: 50px;
@@ -115,6 +114,9 @@ body{
 }
 
 
+.navbar div span div .cv_download_link{
+  height: 2vw;
+}
 
 .container{
   background-color: #101010;
@@ -334,8 +336,12 @@ h3{
 
 
 .containero {
-  background-image: url(../images/test.jpg);
-  background-repeat: round; 
+  background-image: url(../images/test.jpg);  
+  /*background-repeat: round; */
+
+  /*background-repeat: no-repeat;*/
+  background-size: cover;
+  background-position: center;
   background-attachment: fixed;
   height: 100vh;
   width: 100vw;
@@ -498,7 +504,11 @@ h3{
     display: list-item;
     width: 50vw;
   }
-  
+
+  .navbar div span div .cv_download_link{
+    height: 21vw;
+  }
+
 }
 
 
