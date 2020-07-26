@@ -38,7 +38,7 @@ const typedTextSpan = document.querySelector(".typed-text");
 const typedTextSpan2 = document.querySelector(".typed-text2");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["am a", "like", "like to play" ];
+const textArray = ["am a proud", "like", "like to play" ];
 const textArray2 = [" JADAVPURIAN.", " coding.", " football."];
 const typingDelay = 20;
 const erasingDelay = 20;
