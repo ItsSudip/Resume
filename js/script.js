@@ -39,7 +39,7 @@ const typedTextSpan2 = document.querySelector(".typed-text2");
 const cursorSpan = document.querySelector(".cursor");
 
 const textArray = ["am a", "like", "like to play" ];
-const textArray2 = [" JUIAN.", " coding.", " football."];
+const textArray2 = [" JADAVPURIAN.", " coding.", " football."];
 const typingDelay = 20;
 const erasingDelay = 20;
 const newTextDelay = 500; // Delay between current and next text
